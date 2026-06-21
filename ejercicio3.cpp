@@ -13,6 +13,8 @@ int main() {
             frecuencia[F]++;
         }
 
+        for (int i = 1; i <= P; i++) {
+            cout << i << "-" << frecuencia[i] << endl;
         }
     }
 
